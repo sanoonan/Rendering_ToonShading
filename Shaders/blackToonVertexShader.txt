@@ -1,0 +1,28 @@
+#version 400
+
+layout(location = 0) in vec3 vertex_position;
+layout(location = 1) in vec3 vertex_normal;
+layout(location = 2) in vec2 vertex_texture;
+
+
+
+uniform mat4 view;
+uniform mat4 proj;
+uniform mat4 model;
+
+
+uniform float line_width;
+
+void main()
+{
+	//move position out in direction of normal
+	vec3 new_vertex_pos = vertex_position + line_width*vertex_normal;
+
+	// Convert position to clip coordinates and pass along
+	gl_Position = proj * view * model * vec4(new_vertex_pos, 1.0);
+
+
+}
+
+
+  

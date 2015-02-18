@@ -1,0 +1,34 @@
+﻿Build started 17/02/2015 17:33:09.
+     1>Project "C:\VS Projects\Rendering_ToonShading\Rendering_ToonShading\Rendering_ToonShading.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\VS Projects\Rendering_ToonShading\Rendering_ToonShading\glew-1.10.0\include" /I"C:\VS Projects\Rendering_ToonShading\Rendering_ToonShading\freeglut\include" /I"C:\VS Projects\Rendering_ToonShading\Rendering_ToonShading\assimp\include" /I"C:\VS Projects\Rendering_ToonShading\Rendering_ToonShading\AntTweakBar\AntTweakBar\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Files\Camera.cpp Files\main.cpp Files\Mesh.cpp Files\MultiToonShaders.cpp Files\RigidBody.cpp Files\ShaderManager.cpp Files\Shaders.cpp
+         Shaders.cpp
+         ShaderManager.cpp
+         RigidBody.cpp
+         MultiToonShaders.cpp
+         Mesh.cpp
+         main.cpp
+     1>c:\vs projects\rendering_toonshading\rendering_toonshading\files\main.cpp(253): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\vs projects\rendering_toonshading\rendering_toonshading\files\main.cpp(256): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\vs projects\rendering_toonshading\rendering_toonshading\files\main.cpp(259): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+         GLM: perspective function taking degrees as a parameter is deprecated. #define GLM_FORCE_RADIANS before including GLM headers to remove this message.
+         Camera.cpp
+         Generating Code...
+     1>c:\vs projects\rendering_toonshading\rendering_toonshading\files\mesh.cpp(136): warning C4715: 'Mesh::load_image_to_texture' : not all control paths return a value
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\VS Projects\Rendering_ToonShading\Rendering_ToonShading\glew-1.10.0\include" /I"C:\VS Projects\Rendering_ToonShading\Rendering_ToonShading\freeglut\include" /I"C:\VS Projects\Rendering_ToonShading\Rendering_ToonShading\assimp\include" /I"C:\VS Projects\Rendering_ToonShading\Rendering_ToonShading\AntTweakBar\AntTweakBar\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:prompt Files\stb_image.c
+         stb_image.c
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\VS Projects\Rendering_ToonShading\Debug\Rendering_ToonShading.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\VS Projects\Rendering_ToonShading\Rendering_ToonShading\glew-1.10.0\lib\Release\Win32" /LIBPATH:"C:\VS Projects\Rendering_ToonShading\Rendering_ToonShading\freeglut\lib" /LIBPATH:"C:\VS Projects\Rendering_ToonShading\Rendering_ToonShading\assimp\lib\Release" /LIBPATH:"C:\VS Projects\Rendering_ToonShading\Rendering_ToonShading\AntTweakBar\AntTweakBar\lib" assimp.lib glew32.lib freeglut.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\VS Projects\Rendering_ToonShading\Debug\Rendering_ToonShading.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\VS Projects\Rendering_ToonShading\Debug\Rendering_ToonShading.lib" /MACHINE:X86 Debug\Camera.obj
+         Debug\main.obj
+         Debug\Mesh.obj
+         Debug\MultiToonShaders.obj
+         Debug\RigidBody.obj
+         Debug\ShaderManager.obj
+         Debug\Shaders.obj
+         Debug\stb_image.obj
+         Rendering_ToonShading.vcxproj -> C:\VS Projects\Rendering_ToonShading\Debug\Rendering_ToonShading.exe
+     1>Done Building Project "C:\VS Projects\Rendering_ToonShading\Rendering_ToonShading\Rendering_ToonShading.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:08.35
